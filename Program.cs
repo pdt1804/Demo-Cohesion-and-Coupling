@@ -13,7 +13,7 @@ namespace Cohesion_Coupling_Concern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your expected balance number: ");
+            Console.WriteLine("Enter your expected balance number of your account: ");
 
             int balance_number = Convert.ToInt32(Console.ReadLine());
 
@@ -23,7 +23,7 @@ namespace Cohesion_Coupling_Concern
 
             Console.WriteLine("Enter your transaction type : withdraw/deposit ");
             string transactionType = Console.ReadLine();
-/*            while (transactionType != "withdraw" || transactionType != "deposit")
+/*          while (transactionType != "withdraw" || transactionType != "deposit")
             {
                 Console.WriteLine("Wrong format, rechoose your transaction type");
 
