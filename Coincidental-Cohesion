@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Coincidental_Cohesion
+{
+
+    // Lớp này chứa các phương thức không liên quan gì với nhau
+    public class CoincidentalCohesionExample
+    {
+        public void CalculateAreaOfRectangle(int length, int width)
+        {
+            int area = length * width;
+            Console.WriteLine($"Area of the rectangle: {area}");
+        }
+
+        public void GreetUser(string name)
+        {
+            Console.WriteLine($"Hello, {name}!");
+        }
+
+        public void SortArray(int[] arr)
+        {
+            Array.Sort(arr);
+            Console.Write("Sorted array: ");
+            foreach (var item in arr)
+            {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+            CoincidentalCohesionExample example = new CoincidentalCohesionExample();
+            example.CalculateAreaOfRectangle(5, 10);
+            example.GreetUser("John");
+            example.SortArray(new int[] { 3, 1, 2 });
+        }
+    }
+}
