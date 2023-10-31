@@ -6,3 +6,10 @@ C:\Users\DELL\Desktop\Cohesion Coupling Concern\obj\Debug\Cohesion Coupling Conc
 C:\Users\DELL\Desktop\Cohesion Coupling Concern\obj\Debug\Cohesion Coupling Concern.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\Cohesion Coupling Concern\obj\Debug\Cohesion Coupling Concern.exe
 C:\Users\DELL\Desktop\Cohesion Coupling Concern\obj\Debug\Cohesion Coupling Concern.pdb
+C:\Users\Hii\Desktop\Demo-Cohesion-and-Coupling\obj\Debug\Cohesion Coupling Concern.csproj.AssemblyReference.cache
+C:\Users\Hii\Desktop\Demo-Cohesion-and-Coupling\obj\Debug\Cohesion Coupling Concern.csproj.CoreCompileInputs.cache
+C:\Users\Hii\Desktop\Demo-Cohesion-and-Coupling\obj\Debug\Cohesion Coupling Concern.exe
+C:\Users\Hii\Desktop\Demo-Cohesion-and-Coupling\obj\Debug\Cohesion Coupling Concern.pdb
+C:\Users\Hii\Desktop\Demo-Cohesion-and-Coupling\bin\Debug\Cohesion Coupling Concern.exe.config
+C:\Users\Hii\Desktop\Demo-Cohesion-and-Coupling\bin\Debug\Cohesion Coupling Concern.exe
+C:\Users\Hii\Desktop\Demo-Cohesion-and-Coupling\bin\Debug\Cohesion Coupling Concern.pdb

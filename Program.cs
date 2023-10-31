@@ -5,36 +5,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace Cohesion_Coupling_Concern
 {
     public class Program
     {
         static void Main(string[] args)
         {
-            Car car = new Car
-            {
-                ProductionDate = new DateTime(2010, 1, 1)
-            };
+            Console.WriteLine("Enter your expected balance number: ");
 
-            // Tạo một đối tượng Person và gán Car cho nó
-            Person person = new Person
-            {
-                Car = car
-            };
+            int balance_number = Convert.ToInt32(Console.ReadLine());
 
-            // Kiểm tra xem Car có hết hạn sử dụng hay không qua đối tượng Person và CarService
-            bool isExpired = person.CheckCarExpiration();
+            Account account = new Account(balance_number);
 
-            if (isExpired)
-            {
-                Console.WriteLine("The car has expired.");
-            }
-            else
-            {
-                Console.WriteLine("The car is still within the usage period.");
-            }
+            Transaction transaction = new Transaction(account);
 
-            Console.ReadLine();
+            Console.WriteLine("Enter your transaction type : withdraw/deposit ");
+            string transactionType = Console.ReadLine();
+/*            while (transactionType != "withdraw" || transactionType != "deposit")
+            {
+                Console.WriteLine("Wrong format, rechoose your transaction type");
+
+                transactionType = Console.ReadLine();
+
+            }*/
+            
+            Console.WriteLine("Enter your amount : ");
+
+            decimal amount = Convert.ToDecimal(Console.ReadLine());
+
+            transaction.MakeTransaction(transactionType, amount);
+
+            Console.WriteLine("Account after transaction: ");
+            Console.WriteLine(account.GetBalance());
         }
     }
 }

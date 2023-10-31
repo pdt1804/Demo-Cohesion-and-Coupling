@@ -43,9 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\Car.cs" />
-    <Compile Include="Entity\CarService.cs" />
-    <Compile Include="Entity\Person.cs" />
+    <Compile Include="Entity\Account.cs" />
+    <Compile Include="Entity\Transaction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
